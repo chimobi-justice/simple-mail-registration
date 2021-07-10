@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: lightblue;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#signupForm {
+    width: 30%;
+    margin: 6rem auto;
+    background: #fff;
+}
+#signupForm > .header-title {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding: 10px 0px 15px 0px;
+}
+#signupForm > #form-container {
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px;
+}
+#signupForm > #form-container > .form-group > input {
+    width: 93%;
+    display: block;
+    padding: 10px;
+    margin: 2px 0px 3px 0px;
+}
+#signupForm > #form-container > .form-group > label {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#signupForm > #form-container > .buttonHolder  {
+    margin: 10px 0px 10px 0px;
+}
+#signupForm > #form-container > .buttonHolder > button {
+    width: 100%;    
+    padding: 10px;
+    font-size: 20px;
+    background: #000;
+    color: #fff; 
+    border: 1px solid #000;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer; 
+}
+#signupForm > #form-container > .buttonHolder > button:hover {
+    background: #1F1F20;
+    border: 1px solid #1F1F20;
+    transform: translateY(-3px);
+}
+
+.success {
+    color: #7E5;
+}
+.notice {
+    color: lightcoral;
+}
+.status_msg {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
